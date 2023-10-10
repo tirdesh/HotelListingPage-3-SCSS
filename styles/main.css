@@ -178,13 +178,17 @@ section h1, .stars{
     vertical-align: bottom;
 }
 
+.reviews-right a{
+    text-decoration: none;
+}
+
 .reviews-right p, 
 .reviews-right button {
     display: inline-block;
     background-color: #ffffff;
     padding: 0px;
     border: 1px solid rgb(141, 211, 187);
-    border-radius: 2px;
+    border-radius: 5px;
     vertical-align: top;
 }
 
@@ -581,3 +585,6 @@ vertical-align: middle;
     margin-right: 0px;
 }
 
+.footer a {
+    text-decoration: none;
+}
