@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(250, 251, 252);
     font-family: Helvetica, sans-serif;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
@@ -13,7 +13,7 @@ p{
 
 /* Header styles */
 header {
-    background-color: whitesmoke;
+    background-color: rgb(255, 255, 255);
     position: sticky;
     top: 0;
     width: 100%;
@@ -81,6 +81,8 @@ header a img {
 /*For navigation*/
 nav{
     margin-left:110px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 nav div a{
     margin: 0px 0px 0px 0px;
@@ -178,6 +180,16 @@ section h1, .stars{
     vertical-align: bottom;
 }
 
+.reviews-right img {
+    margin-right: 5px;
+        display: inline-block;
+        background-color: #ffffff;
+        padding: 5px;
+        border: 1px solid rgb(141, 211, 187);
+        border-radius: 5px;
+    vertical-align: top;
+}
+
 .reviews-right a{
     text-decoration: none;
 }
@@ -201,6 +213,7 @@ section h1, .stars{
     list-style: none;
     padding-left: 100px;
     padding-right: 89px;
+    padding-bottom: 35px;
     margin-top: 75px;
     position: relative;
     overflow: hidden;
@@ -249,13 +262,19 @@ section h1, .stars{
 
 /*Overview section started*/
 
+article{
+    padding-bottom: 35px;
+}
+
 article h2{
     padding-left: 110px;
+    padding-top: 35px;
 }
 #overview{
     margin: 30px;
     padding-left: 80px;
     padding-right: 80px;
+
 }
 
 .text{
@@ -275,6 +294,10 @@ article h2{
     text-align: left;
     margin-right: 15px;
   }
+
+  .icon-box img{
+    padding-bottom: 20px;
+  }
   
   .icon-box {
     height: 75px;
@@ -289,6 +312,7 @@ article h2{
 
   #txt-id{
     font-weight: bolder;
+    padding-bottom: 7px;
     /* Style your text here */
   }
   
@@ -299,11 +323,12 @@ article h2{
 
   /*Available rooms section code*/
   section h2{
+    padding-top: 35px;
     padding-left: 110px;
   }
   .room-container {
     width: 100%;
-    margin-top: 10px ;
+    margin-top: 0px ;
     margin-right: 100px;
     text-align: left;
     vertical-align: middle;
@@ -313,7 +338,7 @@ article h2{
 .rounded-image {
     border-radius: 20%;
     margin-left: 100px;
-    margin-right: 50px;
+    margin-right: 0px;
     padding: 10px;
     display: inline-block;
     vertical-align: middle;
@@ -358,6 +383,7 @@ article h2{
 /*Location section*/
 
 .location{
+    padding-top: 35px ;
     margin-left:115px;
     vertical-align: middle;
 }
@@ -376,6 +402,10 @@ article h2{
     padding: 0; /* Remove any padding */
     margin-left: 110px;
     overflow-x: hidden; /* Hide horizontal overflow */
+}
+
+iframe ::after #location{
+    padding-bottom: 35px;
 }
 
 /* Amenities section */
@@ -400,6 +430,7 @@ article h2{
 
 .amenities li {
     margin-bottom: 10px;
+
 }
 
 .amenities img{
@@ -411,6 +442,9 @@ article h2{
     color:rgb(255, 134, 130)
 }
 
+.amenities-column1{
+    padding-bottom: 35px;
+}
 
 .amenities-column1::after {
     content: "";
@@ -497,7 +531,7 @@ vertical-align: middle;
     padding: 20px;
     overflow: hidden;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 50px;
     margin-left: 10%;
     margin-right: 10%;
     background-color: rgb(205, 234, 225);
@@ -567,7 +601,7 @@ vertical-align: middle;
     color: #000; /* Text color */
     padding-left: 10%;
     padding-right: 10%;
-    padding-top: 10%;
+    padding-top: 7%;
 }
 
 .footer-column {
@@ -580,6 +614,8 @@ vertical-align: middle;
     text-align: left;
     padding: 0;
 }
+
+
 
 .social-media-icons img {
     margin-right: 0px;
