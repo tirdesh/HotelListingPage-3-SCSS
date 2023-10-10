@@ -10,21 +10,19 @@ section h2{
   
 .room-container {
     width: 100%;
-    margin-top: $room-container-margin-top;
-    margin-right: $room-container-margin-right;
+    margin-top: 0px;
+    margin-right: 100px;
     text-align: left;
     vertical-align: middle;
     display: inline-block;
 
-    // Apply mixin for box shadow with variables
-    @include box-shadow(0px 2px 5px $light-green-color, $room-container-box-shadow-offset);
 }
 
 .rounded-image {
-    border-radius: $rounded-image-border-radius;
-    margin-left: $rounded-image-margin-left;
-    margin-right: $rounded-image-margin-right;
-    padding: $rounded-image-padding;
+    border-radius: 20%;
+    margin-left: 100px;
+    margin-right: 0px;
+    padding: 10px;
     display: inline-block;
     vertical-align: middle;
 }
@@ -33,31 +31,31 @@ section h2{
     display: inline-block;
     text-align: left;
     vertical-align: middle;
-    margin-right: $room-details-margin-right;
-    padding: $room-details-padding;
-    font-weight: $room-details-font-weight;
+    margin-right: 15px;
+    padding: 10px;
+    font-weight: 700;
 }
 
-.room-price-book {
+.room-price-book{
     float: right;
-    margin-left: $room-price-book-margin-left;
-    padding: $room-price-book-padding;
+    margin-left: 50px;
+    padding: 10px;
 }
 
 .room-price-book span:nth-child(1) {
-    font-size: $room-price-font-size;
-    font-weight: $room-price-font-weight;
+    font-size: x-large;
+    font-weight: 900;
 }
 
 .book-button {
     display: inline-block;
     text-align: center;
     vertical-align: middle;
-    border-radius: $book-button-border-radius;
-    border-color: $book-button-border-color;
-    margin-left: $book-button-margin-left;
-    margin-right: $book-button-margin-right;
-    font-weight: $book-button-font-weight;
+    border-radius: 5px;
+    border-color: transparent;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-weight: bold;
 }
 
 .room-container img,
