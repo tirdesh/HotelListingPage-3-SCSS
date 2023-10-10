@@ -20,14 +20,14 @@
 }
 
 .review-container {
-    margin-left: $reviews-container-margin-left;
+    margin-left: 110px;
     width: 100%;
     overflow: hidden;
 }
 
 .rating {
     float: left;
-    font-size: $rating-font-size;
+    font-size: 2.5rem;
 }
 
 .reviews-sec article img,
@@ -39,18 +39,18 @@
 }
 
 .reviews-sec article img {
-    margin-left: $reviews-article-img-margin-left;
-    border-radius: $reviews-article-img-border-radius;
+    margin-left: 110px;
+    border-radius: 200%;
 }
 
 .reviews-sec article svg {
     float: right;
-    margin-right: $reviews-article-svg-margin-right;
+    margin-right: 110px;
 }
 
 .reviews-sec article p {
-    margin-left: $reviews-article-p-margin-left;
-    margin-top: $reviews-article-p-margin-top;
+    margin-left: 120px;
+    margin-top: 20px;
 }
 
 
