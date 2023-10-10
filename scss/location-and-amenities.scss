@@ -2,78 +2,80 @@
 @import 'variables';
 
 /* Define styles for location section */
-.location {
-    padding-top: $location-padding-top;
-    margin-left: $location-margin-left;
+
+.location{
+    padding-top: 35px ;
+    margin-left:115px;
     vertical-align: middle;
 }
 
-.location button {
-    padding: $location-button-padding;
-    border-radius: $location-button-border-radius;
-    float: right;
-    margin-bottom: $location-button-margin-bottom;
-    margin-left: $location-button-margin-left;
-}
 
-#map-frame {
-    border-radius: $map-frame-border-radius;
-    margin: 0;
-    padding: 0;
-    margin-left: $map-frame-margin-left;
-    overflow-x: $map-frame-overflow-x;
+.location button{
+    padding: 15px 10px;
+    border-radius: 5px;
+    float: right;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+#map-frame{
+    border-radius: 2%;
+    margin: 0; /* Remove any margin */
+    padding: 0; /* Remove any padding */
+    margin-left: 110px;
+    overflow-x: hidden; /* Hide horizontal overflow */
 }
 
 iframe ::after #location{
     padding-bottom: 35px;
 }
 
-/* Define styles for amenities section */
+/* Amenities section */
 .amenities-column {
-    float: $amenities-column-float;
-    margin-right: $amenities-column-margin-right;
+    float: right;
+    margin-right: 30%;
 }
 
 .amenities-column1 {
-    float: $amenities-column1-float;
-    margin-left: $amenities-column1-margin-left;
+    float: left;
+    margin-left: 10%;
 }
 
 .amenities {
-    width: $amenities-width;
+    width: 100%;
 }
 
 .amenities ul {
-    list-style-type: $amenities-list-style-type;
-    padding: $amenities-list-padding;
+    list-style-type: none;
+    padding: 0;
 }
 
 .amenities li {
-    margin-bottom: $amenities-list-item-margin-bottom;
+    margin-bottom: 10px;
+
 }
 
-.amenities img {
-    border: $amenities-img-border;
+.amenities img{
+    border: nones;
 }
 
-.amenities-column a {
-    text-decoration: $amenities-column-a-text-decoration;
-    color: $amenities-column-a-color;
+.amenities-column a{
+    text-decoration: none;
+    color:rgb(255, 134, 130)
 }
 
-.amenities-column1 {
-    padding-bottom: $amenities-column1-padding-bottom;
+.amenities-column1{
+    padding-bottom: 35px;
 }
 
 .amenities-column1::after {
-    content: $amenities-column1-after-content;
-    display: $amenities-column1-after-display;
+    content: "";
+    display: block;
 }
 
-.amenities li img,
-.amenities li span {
-    display: $amenities-list-item-img-display;
-    vertical-align: $amenities-list-item-img-vertical-align;
+.amenities li img, .amenities li span {
+    display: inline-block;
+    vertical-align: middle;
 }
+
 
 /* Define more styles for location and amenities as needed */
