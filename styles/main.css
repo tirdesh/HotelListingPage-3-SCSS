@@ -1,0 +1,583 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: Helvetica, sans-serif;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+p{
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
+
+/* Header styles */
+header {
+    background-color: whitesmoke;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:800;
+    line-height: 1;
+    text-align: center;
+    padding: 10px 0; /* Adjust padding as needed */
+    z-index: 1;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Add a shadow for the sticky effect */
+}
+
+/* Style for header links */
+header a {
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px; /* Add space between the icon and text */
+}
+
+/* Style for SVG and images inside header links */
+header a svg,
+header a img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Style for the logo */
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    position: relative;
+    top: 0;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-weight: bold; /* Make the logo bold, adjust as needed */
+}
+
+.items:hover {
+    border-bottom: 2px solid green; /* Add a green border bottom on hover */
+}
+/* Style for the right-aligned item */
+.items.item3 {
+    display: inline-block; /* Display as inline-block */
+    vertical-align: middle; /* Vertically align */
+    text-align: right; /* Right-align the item */
+    margin-left: auto; /* Push it to the right */
+}
+
+.items.item1 {
+    display: inline-block; /* Display as inline-block */
+    vertical-align: middle; /* Vertically align */
+    text-align: left; /* Left-align the item */
+    margin-right: auto;
+}
+
+/* Round the user profile image */
+.item4 img {
+    border-radius: 50%; /* Make the image round */
+}
+
+/*For navigation*/
+nav{
+    margin-left:110px;
+}
+nav div a{
+    margin: 0px 0px 0px 0px;
+    text-decoration: none;
+    color:rgb(255, 134, 130);
+}
+
+section h1{
+    margin-left: 110px;
+}
+
+
+section h1, .stars{
+    display: inline;
+    vertical-align: middle;
+}
+
+.stars{
+    overflow: hidden;
+}
+
+.stars a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+.stars a svg{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.stars svg{
+    fill: rgb(255, 134, 130);
+    font-size: 0;
+    stroke-width: 0%;
+}
+
+.stars a span{
+    color:black
+}
+
+.stars div{
+    color: rgb(255, 134, 130);
+    float: right;
+    margin-right: 110px;
+}
+
+.stars div span:nth-child(1){
+    font-size:xx-large;
+}
+
+
+#location {
+    margin-left: 90px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#location svg {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.reviews {
+    text-align: center;
+}
+
+.reviews-left, .reviews-right {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.reviews-left{
+    float: left;
+    margin-left: 110px;
+ 
+}
+
+.reviews-right{
+    float: right;
+    text-align: center;
+    margin-right: 100px;
+    border-radius: 5px;
+}
+
+.reviews-left p {
+    margin-right: 5px;
+        display: inline-block;
+        background-color: #ffffff;
+        padding: 10px;
+        border: 1px solid rgb(141, 211, 187);
+        border-radius: 5px;
+    vertical-align: bottom;
+}
+
+.reviews-right p, 
+.reviews-right button {
+    display: inline-block;
+    background-color: #ffffff;
+    padding: 0px;
+    border: 1px solid rgb(141, 211, 187);
+    border-radius: 2px;
+    vertical-align: top;
+}
+
+.reviews-right button, .book-button{
+    padding: 15px 20px;
+    background-color: rgb(141, 211, 187);
+}
+
+.image-container ul {
+    list-style: none;
+    padding-left: 100px;
+    padding-right: 89px;
+    margin-top: 75px;
+    position: relative;
+    overflow: hidden;
+}
+
+.column {
+    width: calc(33.33% - 10px); /* 33.33% width for each column with 10px margin-right */
+    margin-right: 10px;
+    float: left;
+}
+
+.large {
+    margin-right: 100px;
+    height: 500px;
+    width: 100%;
+}
+
+.small {
+    height: 240px;
+    width: 100%;
+    margin-bottom: 10px; /* Adjust margin as needed for spacing */
+}
+
+.column:last-child {
+    margin-right: 0; /* Remove margin for the last column */
+}
+
+
+.image-button-container{
+    position: relative;
+    height: 240px;
+    margin-bottom: 10px;
+}
+
+
+.image-button-container button {
+    background-color: rgb(141, 211, 187);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 15%;
+    right: 15%;
+    border-radius: 5px;
+}
+
+/*Overview section started*/
+
+article h2{
+    padding-left: 110px;
+}
+#overview{
+    margin: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.text{
+    padding-bottom: 10px;
+}
+
+/*Box Icons in overview*/
+.icon-fill {
+    height: 75px;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: rgb(141, 211, 187);
+    padding: 10px;
+    margin-left: 110px;
+    border: 1px solid rgb(141, 211, 187);;
+    border-radius: 5px;
+    text-align: left;
+    margin-right: 15px;
+  }
+  
+  .icon-box {
+    height: 75px;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px;
+    border: 1px solid rgb(141, 211, 187);
+    border-radius: 5px;
+    text-align: left;
+    margin-right: 15px;
+}
+
+  #txt-id{
+    font-weight: bolder;
+    /* Style your text here */
+  }
+  
+  hr{
+    clear: both;
+    margin: 10px 50px;
+  }
+
+  /*Available rooms section code*/
+  section h2{
+    padding-left: 110px;
+  }
+  .room-container {
+    width: 100%;
+    margin-top: 10px ;
+    margin-right: 100px;
+    text-align: left;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.rounded-image {
+    border-radius: 20%;
+    margin-left: 100px;
+    margin-right: 50px;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.room-details {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    margin-right: 15px;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.room-price-book{
+    float: right;
+    margin-left: 50px;
+    padding: 10px;
+}
+
+.room-price-book span:nth-child(1) {
+    font-size: x-large;
+    font-weight: 900;
+}
+
+.book-button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 5px;
+    border-color: transparent;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-weight: bold;
+}
+
+.room-container img, .room-container span{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/*Location section*/
+
+.location{
+    margin-left:115px;
+    vertical-align: middle;
+}
+
+
+.location button{
+    padding: 15px 10px;
+    border-radius: 5px;
+    float: right;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+#map-frame{
+    border-radius: 2%;
+    margin: 0; /* Remove any margin */
+    padding: 0; /* Remove any padding */
+    margin-left: 110px;
+    overflow-x: hidden; /* Hide horizontal overflow */
+}
+
+/* Amenities section */
+.amenities-column {
+    float: right;
+    margin-right: 30%;
+}
+
+.amenities-column1 {
+    float: left;
+    margin-left: 10%;
+}
+
+.amenities {
+    width: 100%;
+}
+
+.amenities ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.amenities li {
+    margin-bottom: 10px;
+}
+
+.amenities img{
+    border: nones;
+}
+
+.amenities-column a{
+    text-decoration: none;
+    color:rgb(255, 134, 130)
+}
+
+
+.amenities-column1::after {
+    content: "";
+    display: block;
+}
+
+.amenities li img, .amenities li span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
+/*Reviews section*/
+
+.reviews-sec div {
+    display: inline-block;
+    width: 100%; /* Adjust the width as needed */
+    vertical-align: top; /* Align elements to the top */
+}
+
+.reviews-sec h2 {
+    float: left;
+}
+
+.reviews-sec .book-button {
+    float: right;
+}
+
+.review-container {
+    margin-left: 110px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.rating {
+    float: left;
+    font-size: 2.5rem;
+}
+
+
+.reviews-sec article img ,
+.reviews-sec article strong,
+.reviews-sec article span,
+.reviews-sec article svg
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.reviews-sec article img {
+    margin-left: 110px;
+    border-radius: 200%;
+}
+
+.reviews-sec article svg{
+    float: right;
+    margin-right: 110px;
+
+}
+
+.reviews-sec article p{
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+
+#arrow_nav button,
+#arrow_nav span{
+    display: inline-block;
+vertical-align: middle;
+}
+
+#arrow_nav{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+/*subscribe*/
+.container-with-border {
+    border: 2px solid transparent;
+    border-radius: 20px; /* Adjust the border radius as needed */
+    padding: 20px;
+    overflow: hidden;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(205, 234, 225);
+    margin-bottom: -50px;
+    position: relative;
+}
+
+.subscribe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.subscribe-text {
+    text-align: left;
+    width: 70%;
+}
+
+.subscribe-text h2 {
+    padding-left: 0;
+    float: left;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.subscribe-text strong {
+    font-size: 18px;
+}
+
+.subscribe-text p {
+    margin: 10px 0;
+}
+
+.subscribe-text form {
+    margin-top: 10px;
+}
+
+.subscribe-text input[type="email"] {
+    padding: 10px;
+    margin-right: 10px;
+    width: 70%;
+    border-color: transparent;
+    border-radius: 5px;
+}
+
+.subscribe-text button {
+    padding: 12px 20px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.subscribe-image {
+    max-width: 30%;
+}
+
+
+/*footer code*/
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(141, 211, 187); /* Green background color */
+    color: #000; /* Text color */
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+}
+
+.footer-column {
+    flex: 1;
+    padding: 0px;
+}
+
+.footer-column ul {
+    list-style-type: none;
+    text-align: left;
+    padding: 0;
+}
+
+.social-media-icons img {
+    margin-right: 0px;
+}
+

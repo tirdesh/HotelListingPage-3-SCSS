@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Globe - Hotel Listing Page</title>
+        <link rel="stylesheet" href="styles/main.css">
+    </head>
+    <body>
+         <!-- Here is our main header that is used across all the pages of our website -->
+        <header>
+                <a href="metadata.html" class="items item1">
+                    <svg width="54" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M 39.1 30.5 C 39 30.5 38.4 30.5 38.3 30.5 L 35.2 30.6 C 35.2 30.6 35.2 30.6 35.2 30.6 C 35.2 30.6 35.2 30.6 35.1 30.6 L 29.1 23.2 C 29 23.1 29 23.1 28.9 23 C 28.9 23 28.8 23 28.8 23 H 27.5 L 30.9 30.5 C 30.9 30.6 30.9 30.6 30.9 30.6 C 30.9 30.6 30.9 30.6 30.9 30.7 C 30.9 30.7 30.9 30.7 30.9 30.7 C 30.9 30.7 30.8 30.7 30.8 30.7 L 25.1 30.8 C 25.1 30.8 25 30.8 24.9 30.8 C 24.9 30.7 24.8 30.7 24.8 30.6 L 23.1 28.5 C 22.9 28.4 22.7 28.3 22.4 28.3 H 21.6 C 21.5 28.3 21.5 28.3 21.5 28.4 L 22.4 31.7 C 22.5 31.9 22.5 32.1 22.4 32.3 L 21.5 35.6 C 21.5 35.7 21.5 35.8 21.6 35.8 H 22.4 C 22.8 35.8 22.9 35.7 23.1 35.5 L 24.8 33.3 C 24.9 33.3 24.9 33.2 25 33.2 C 25 33.2 25.1 33.2 25.1 33.2 L 30.8 33.3 C 30.8 33.3 30.8 33.3 30.9 33.3 C 30.9 33.3 30.9 33.3 30.9 33.4 C 30.9 33.4 30.9 33.4 30.9 33.4 C 30.9 33.4 30.9 33.5 30.9 33.5 L 27.5 41 H 28.7 C 28.8 41 28.9 41 28.9 41 C 29 40.9 29 40.9 29.1 40.8 L 35.1 33.5 C 35.2 33.4 35.2 33.4 35.3 33.4 L 38.3 33.5 C 38.4 33.5 39 33.5 39.1 33.5 C 41.2 33.5 42.5 32.9 42.5 32 C 42.5 31.1 41.2 30.5 39.1 30.5 Z" fill="black"/>
+                    </svg>
+                    <span>Find Flights</span>
+                </a>
+                <a href="metadata.html" class="items item2" >
+                    <svg width="54" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M40.25 30.8141C39.7772 30.6065 39.2664 30.4996 38.75 30.5H25.25C24.7337 30.4995 24.2229 30.6063 23.75 30.8136C23.0817 31.1059 22.5129 31.5865 22.1134 32.1968C21.7138 32.8071 21.5006 33.5205 21.5 34.25V39.5C21.5 39.6989 21.579 39.8897 21.7197 40.0303C21.8603 40.171 22.0511 40.25 22.25 40.25C22.4489 40.25 22.6397 40.171 22.7803 40.0303C22.921 39.8897 23 39.6989 23 39.5V39.125C23.0012 39.0259 23.0411 38.9312 23.1112 38.8612C23.1812 38.7911 23.2759 38.7512 23.375 38.75H40.625C40.7241 38.7512 40.8188 38.7911 40.8888 38.8612C40.9589 38.9312 40.9988 39.0259 41 39.125V39.5C41 39.6989 41.079 39.8897 41.2197 40.0303C41.3603 40.171 41.5511 40.25 41.75 40.25C41.9489 40.25 42.1397 40.171 42.2803 40.0303C42.421 39.8897 42.5 39.6989 42.5 39.5V34.25C42.4993 33.5206 42.2861 32.8073 41.8865 32.1971C41.4869 31.5869 40.9183 31.1063 40.25 30.8141ZM37.625 23.75H26.375C25.6788 23.75 25.0111 24.0266 24.5188 24.5188C24.0266 25.0111 23.75 25.6788 23.75 26.375V29.75C23.75 29.7791 23.7568 29.8077 23.7698 29.8337C23.7828 29.8597 23.8016 29.8823 23.8249 29.8998C23.8481 29.9172 23.8751 29.929 23.9036 29.9343C23.9322 29.9395 23.9616 29.9381 23.9895 29.93C24.399 29.8102 24.8234 29.7496 25.25 29.75H25.4483C25.4946 29.7503 25.5393 29.7335 25.5739 29.7027C25.6085 29.672 25.6306 29.6296 25.6358 29.5836C25.6767 29.2171 25.8512 28.8786 26.1259 28.6326C26.4006 28.3866 26.7563 28.2504 27.125 28.25H29.75C30.119 28.25 30.475 28.3861 30.75 28.6321C31.025 28.8781 31.1997 29.2169 31.2406 29.5836C31.2458 29.6296 31.2679 29.672 31.3025 29.7027C31.3371 29.7335 31.3818 29.7503 31.4281 29.75H32.5747C32.621 29.7503 32.6657 29.7335 32.7003 29.7027C32.735 29.672 32.757 29.6296 32.7622 29.5836C32.8031 29.2174 32.9773 28.879 33.2517 28.633C33.5261 28.3871 33.8815 28.2507 34.25 28.25H36.875C37.244 28.25 37.6 28.3861 37.875 28.6321C38.15 28.8781 38.3247 29.2169 38.3656 29.5836C38.3708 29.6296 38.3929 29.672 38.4275 29.7027C38.4621 29.7335 38.5068 29.7503 38.5531 29.75H38.75C39.1766 29.7498 39.6011 29.8106 40.0105 29.9305C40.0384 29.9385 40.0679 29.94 40.0965 29.9347C40.1251 29.9295 40.1521 29.9176 40.1753 29.9001C40.1986 29.8826 40.2174 29.8599 40.2304 29.8339C40.2433 29.8078 40.2501 29.7791 40.25 29.75V26.375C40.25 25.6788 39.9734 25.0111 39.4812 24.5188C38.9889 24.0266 38.3212 23.75 37.625 23.75Z" fill="black"/>
+                    </svg>
+                    <span>Find stays</span>
+                </a>
+                <img src="assets/Logo.png" alt="globe logo" class="logo" width="100" height="30">
+                <a href="metadata.html" class="items item3">
+                    <svg width="54" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M32 22.25C26.6239 22.25 22.25 26.6239 22.25 32C22.25 37.3761 26.6239 41.75 32 41.75C37.3761 41.75 41.75 37.3761 41.75 32C41.75 26.6239 37.3761 22.25 32 22.25ZM35.5011 34.1009C35.0614 34.6372 34.2636 35.4945 32.4214 36.7452C32.2972 36.8302 32.1501 36.8757 31.9995 36.8757C31.849 36.8757 31.7019 36.8302 31.5777 36.7452C29.7355 35.4945 28.9377 34.6358 28.498 34.1009C27.5605 32.9586 27.1114 31.7853 27.1245 30.515C27.1391 29.0591 28.3067 27.8745 29.7275 27.8745C30.6838 27.8745 31.3681 28.3728 31.7947 28.8312C31.821 28.8591 31.8527 28.8812 31.8878 28.8963C31.9229 28.9115 31.9608 28.9193 31.9991 28.9193C32.0373 28.9193 32.0752 28.9115 32.1103 28.8963C32.1455 28.8812 32.1772 28.8591 32.2034 28.8312C32.6305 28.3728 33.3144 27.8745 34.2706 27.8745C35.6914 27.8745 36.8591 29.0591 36.8736 30.515C36.8877 31.7853 36.4381 32.9586 35.5011 34.1009Z" fill="black"/>
+                    </svg>
+                    <span>Favourites</span>
+                </a>
+                <span>|&nbsp;&nbsp;</span>
+                <a href="metadata.html"  class="items item4">
+                    <img src="assets/profilePic.jpg" width="30" height="30">
+                    <span>John D.</span>
+                </a>
+        </header>
+        <br>
+        <!--Nav that contains hyperlinks for easy navigation, breadcrumbs to be used-->
+        <nav>
+            <div>
+                <a href="metadata.html">Turkey</a>
+                <span>&nbsp;&nbsp;>&nbsp;&nbsp;</span>
+                <a href="metadata.html">Istanbul</a>
+                <span>&nbsp;&nbsp;>&nbsp;&nbsp;</span>
+                CVK Park Bophorus Hotel Istanbul
+            </div>
+        </nav>
+        <!--Main content for our page-->
+        <main>
+        <!--Hotel name and Images info is present in this section-->
+        <section>
+            <h1>CVK Park Bophorus Hotel Istanbul</h1>
+            <!--This div contains stars and pricing info-->
+            <div class="stars">
+                <a href="metadata.html">
+                    <svg width="130" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <!-- First Star -->
+                        <g transform="translate(0,0)">
+                            <path d="M42.5 29.75H34.4375L32 22.25L29.5625 29.75H21.5L28.0625 34.25L25.5312 41.75L32 37.0625L38.4688 41.75L35.9375 34.25L42.5 29.75Z" />
+                        </g>
+                    
+                        <!-- Second Star -->
+                        <g transform="translate(20,0)">
+                            <path d="M42.5 29.75H34.4375L32 22.25L29.5625 29.75H21.5L28.0625 34.25L25.5312 41.75L32 37.0625L38.4688 41.75L35.9375 34.25L42.5 29.75Z" />
+                        </g>
+                    
+                        <!-- Third Star -->
+                        <g transform="translate(40,0)">
+                            <path d="M42.5 29.75H34.4375L32 22.25L29.5625 29.75H21.5L28.0625 34.25L25.5312 41.75L32 37.0625L38.4688 41.75L35.9375 34.25L42.5 29.75Z" />
+                        </g>
+                    
+                        <!-- Fourth Star -->
+                        <g transform="translate(60,0)">
+                            <path d="M42.5 29.75H34.4375L32 22.25L29.5625 29.75H21.5L28.0625 34.25L25.5312 41.75L32 37.0625L38.4688 41.75L35.9375 34.25L42.5 29.75Z" />
+                        </g>
+                    
+                        <!-- Fifth Star -->
+                        <g transform="translate(80,0)">
+                            <path d="M42.5 29.75H34.4375L32 22.25L29.5625 29.75H21.5L28.0625 34.25L25.5312 41.75L32 37.0625L38.4688 41.75L35.9375 34.25L42.5 29.75Z" />
+                        </g>
+                    </svg>
+                    <span>5 Star Hotel</span>
+                </a>
+                <div>
+                    <span>$240</span>
+                    <span>/night</span>
+                </div>
+            </div>
+            <br>
+            <!--This div contains address info-->
+            <div id="location">
+                <svg width="64px" height="64" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+                    <path d="M32 22.25C28.2734 22.25 25.25 25.1277 25.25 28.6719C25.25 32.75 29.75 39.2127 31.4023 41.4448C31.4709 41.5391 31.5608 41.6157 31.6647 41.6686C31.7686 41.7215 31.8835 41.749 32 41.749C32.1165 41.749 32.2314 41.7215 32.3353 41.6686C32.4392 41.6157 32.5291 41.5391 32.5977 41.4448C34.25 39.2136 38.75 32.7533 38.75 28.6719C38.75 25.1277 35.7266 22.25 32 22.25Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M32 31.25C33.2426 31.25 34.25 30.2426 34.25 29C34.25 27.7574 33.2426 26.75 32 26.75C30.7574 26.75 29.75 27.7574 29.75 29C29.75 30.2426 30.7574 31.25 32 31.25Z" fill="black"></path>
+                </svg>
+                <span>Gümüşsuyu, İnönü Cd. No:8, 34437 Beyoğlu/İstanbul, Türkiye</span>
+            </div>
+            <!--This div contains reviews and options for like, share and book-->
+            <div class="reviews">
+                <div class="reviews-left">
+                <p>5.0</p>
+                <span><strong>Very Good</strong> 371 Reviews</span>
+                </div>
+                <div class="reviews-right">
+               
+                    <svg width="54" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M32 22.25C26.6239 22.25 22.25 26.6239 22.25 32C22.25 37.3761 26.6239 41.75 32 41.75C37.3761 41.75 41.75 37.3761 41.75 32C41.75 26.6239 37.3761 22.25 32 22.25ZM35.5011 34.1009C35.0614 34.6372 34.2636 35.4945 32.4214 36.7452C32.2972 36.8302 32.1501 36.8757 31.9995 36.8757C31.849 36.8757 31.7019 36.8302 31.5777 36.7452C29.7355 35.4945 28.9377 34.6358 28.498 34.1009C27.5605 32.9586 27.1114 31.7853 27.1245 30.515C27.1391 29.0591 28.3067 27.8745 29.7275 27.8745C30.6838 27.8745 31.3681 28.3728 31.7947 28.8312C31.821 28.8591 31.8527 28.8812 31.8878 28.8963C31.9229 28.9115 31.9608 28.9193 31.9991 28.9193C32.0373 28.9193 32.0752 28.9115 32.1103 28.8963C32.1455 28.8812 32.1772 28.8591 32.2034 28.8312C32.6305 28.3728 33.3144 27.8745 34.2706 27.8745C35.6914 27.8745 36.8591 29.0591 36.8736 30.515C36.8877 31.7853 36.4381 32.9586 35.5011 34.1009Z" fill="black"/>
+                    </svg>
+    
+                
+                    <svg width="54" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M26 34.25C27.2426 34.25 28.25 33.2426 28.25 32C28.25 30.7574 27.2426 29.75 26 29.75C24.7574 29.75 23.75 30.7574 23.75 32C23.75 33.2426 24.7574 34.25 26 34.25Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M38 27.5C39.2426 27.5 40.25 26.4926 40.25 25.25C40.25 24.0074 39.2426 23 38 23C36.7574 23 35.75 24.0074 35.75 25.25C35.75 26.4926 36.7574 27.5 38 27.5Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M38 41C39.2426 41 40.25 39.9926 40.25 38.75C40.25 37.5074 39.2426 36.5 38 36.5C36.7574 36.5 35.75 37.5074 35.75 38.75C35.75 39.9926 36.7574 41 38 41Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M27.9609 33.103L36.0394 37.6471M36.0394 26.353L27.9609 30.8971" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+        
+                <button>Book Now
+                </button>
+                </div>
+            </div>
+            <br>
+            <!--Used div and ul to add images-->
+            <div class="image-container">
+                <ul>
+                    <li class="column">
+                        <img src="assets/room1.PNG" alt="Room 1" class="large">
+                    </li>
+                    <li class="column">
+                        <img src="assets/room2.PNG" alt="Room 2" class="small">
+                        <img src="assets/room3.PNG" alt="Room 3" class="small">
+                    </li>
+                    <li class="column">
+                        <img src="assets/room4.PNG" alt="Room 4" class="small">
+                        <div class="image-button-container">
+                        <img src="assets/room5.PNG" alt="Room 5" class="small">
+                        <button>View All Photos</button>
+                    </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <hr>
+        <!--Overview - used article-->
+        <article>
+            <h2>Overview</h2>
+            <p id="overview">
+                Located in Taksim Gmsuyu, the heart of Istanbul. the CVK Park Bosphorus Hotel Istanbul has risen from the ashes of the historic Park Hotel, which also
+                served as Foreign Affairs 120 years ago and is hosting its guests by assuming this hospitality mission. With its 452 luxurious rooms and Suites,
+                8500 m2 SPA and fitness area, 18 meeting rooms including 4 dividable ones and 3 terraces With Bosphorus view, Istanbuls largest terrace with
+                view (4500 m2) and latest intrastructre. CVK Park Bosphorus Hotel Istanbul is destined to the popular attraction point of the
+                city. Room and suite categories at various sizes with city and Bosphorus view, as well as 68 separate luxury suites, are offered to its special guests as a
+                wide variety of selection.
+            </p>
+            <div class="icon-fill">
+                <div class="icon">
+                    <strong>5.0</strong>
+                </div>
+                <div class="text">
+                  <br>
+                  <p id="txt-id">Very good</p>
+                  371 Reviews
+                </div>
+              </div>
+              <div class="icon-box">
+                <div class="icon">
+                    <svg width="54" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_48_5000)">
+                        <path d="M 32.2 32.3 L 30.1 27 C 30.1 26.9 30.1 26.9 30 26.8 C 29.9 26.8 29.8 26.8 29.8 26.8 C 29.7 26.8 29.6 26.8 29.5 26.8 C 29.4 26.9 29.4 26.9 29.4 27 L 27.3 32.3 C 27.3 32.4 27.3 32.4 27.2 32.5 C 27.2 32.5 27.1 32.5 27.1 32.6 L 21.8 34.6 C 21.7 34.6 21.6 34.7 21.6 34.8 C 21.5 34.8 21.5 34.9 21.5 35 C 21.5 35.1 21.5 35.2 21.6 35.2 C 21.6 35.3 21.7 35.4 21.8 35.4 L 27.1 37.4 C 27.1 37.5 27.2 37.5 27.2 37.5 C 27.3 37.6 27.3 37.6 27.3 37.7 L 29.4 43 C 29.4 43.1 29.4 43.1 29.5 43.2 C 29.6 43.2 29.7 43.2 29.8 43.2 C 29.8 43.2 29.9 43.2 30 43.2 C 30.1 43.1 30.1 43.1 30.1 43 L 32.2 37.7 C 32.2 37.6 32.2 37.6 32.3 37.5 C 32.3 37.5 32.4 37.5 32.4 37.4 L 37.7 35.4 C 37.8 35.4 37.9 35.3 37.9 35.2 C 38 35.2 38 35.1 38 35 C 38 34.9 38 34.8 37.9 34.8 C 37.9 34.7 37.8 34.6 37.7 34.6 L 32.4 32.6 C 32.4 32.5 32.3 32.5 32.3 32.5 C 32.2 32.4 32.2 32.4 32.2 32.3 Z M 25.1 23.2 L 24.1 20.8 L 23.2 23.2 L 20.8 24.1 L 23.2 25.1 L 24.1 27.5 L 25.1 25.1 L 27.5 24.1 L 25.1 23.2 Z M 40 25.5 L 38.8 22.3 L 37.5 25.5 L 34.3 26.8 L 37.5 28 L 38.8 31.3 L 40 28 L 43.3 26.8 L 40 25.5 Z" fill="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </g>
+                    </svg>
+                </div>
+                <div class="text">
+                  Near park
+                </div>
+              </div>
+              <div class="icon-box">
+                <div class="icon">
+                    <svg width="54" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_48_5000)">
+                        <path d="M 32.2 32.3 L 30.1 27 C 30.1 26.9 30.1 26.9 30 26.8 C 29.9 26.8 29.8 26.8 29.8 26.8 C 29.7 26.8 29.6 26.8 29.5 26.8 C 29.4 26.9 29.4 26.9 29.4 27 L 27.3 32.3 C 27.3 32.4 27.3 32.4 27.2 32.5 C 27.2 32.5 27.1 32.5 27.1 32.6 L 21.8 34.6 C 21.7 34.6 21.6 34.7 21.6 34.8 C 21.5 34.8 21.5 34.9 21.5 35 C 21.5 35.1 21.5 35.2 21.6 35.2 C 21.6 35.3 21.7 35.4 21.8 35.4 L 27.1 37.4 C 27.1 37.5 27.2 37.5 27.2 37.5 C 27.3 37.6 27.3 37.6 27.3 37.7 L 29.4 43 C 29.4 43.1 29.4 43.1 29.5 43.2 C 29.6 43.2 29.7 43.2 29.8 43.2 C 29.8 43.2 29.9 43.2 30 43.2 C 30.1 43.1 30.1 43.1 30.1 43 L 32.2 37.7 C 32.2 37.6 32.2 37.6 32.3 37.5 C 32.3 37.5 32.4 37.5 32.4 37.4 L 37.7 35.4 C 37.8 35.4 37.9 35.3 37.9 35.2 C 38 35.2 38 35.1 38 35 C 38 34.9 38 34.8 37.9 34.8 C 37.9 34.7 37.8 34.6 37.7 34.6 L 32.4 32.6 C 32.4 32.5 32.3 32.5 32.3 32.5 C 32.2 32.4 32.2 32.4 32.2 32.3 Z M 25.1 23.2 L 24.1 20.8 L 23.2 23.2 L 20.8 24.1 L 23.2 25.1 L 24.1 27.5 L 25.1 25.1 L 27.5 24.1 L 25.1 23.2 Z M 40 25.5 L 38.8 22.3 L 37.5 25.5 L 34.3 26.8 L 37.5 28 L 38.8 31.3 L 40 28 L 43.3 26.8 L 40 25.5 Z" fill="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </g>
+                    </svg>
+                </div>
+                <div class="text">
+                  Near nightlife
+                </div>
+              </div>
+              <div class="icon-box">
+                <div class="icon">
+                    <svg width="54" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_48_5000)">
+                        <path d="M 32.2 32.3 L 30.1 27 C 30.1 26.9 30.1 26.9 30 26.8 C 29.9 26.8 29.8 26.8 29.8 26.8 C 29.7 26.8 29.6 26.8 29.5 26.8 C 29.4 26.9 29.4 26.9 29.4 27 L 27.3 32.3 C 27.3 32.4 27.3 32.4 27.2 32.5 C 27.2 32.5 27.1 32.5 27.1 32.6 L 21.8 34.6 C 21.7 34.6 21.6 34.7 21.6 34.8 C 21.5 34.8 21.5 34.9 21.5 35 C 21.5 35.1 21.5 35.2 21.6 35.2 C 21.6 35.3 21.7 35.4 21.8 35.4 L 27.1 37.4 C 27.1 37.5 27.2 37.5 27.2 37.5 C 27.3 37.6 27.3 37.6 27.3 37.7 L 29.4 43 C 29.4 43.1 29.4 43.1 29.5 43.2 C 29.6 43.2 29.7 43.2 29.8 43.2 C 29.8 43.2 29.9 43.2 30 43.2 C 30.1 43.1 30.1 43.1 30.1 43 L 32.2 37.7 C 32.2 37.6 32.2 37.6 32.3 37.5 C 32.3 37.5 32.4 37.5 32.4 37.4 L 37.7 35.4 C 37.8 35.4 37.9 35.3 37.9 35.2 C 38 35.2 38 35.1 38 35 C 38 34.9 38 34.8 37.9 34.8 C 37.9 34.7 37.8 34.6 37.7 34.6 L 32.4 32.6 C 32.4 32.5 32.3 32.5 32.3 32.5 C 32.2 32.4 32.2 32.4 32.2 32.3 Z M 25.1 23.2 L 24.1 20.8 L 23.2 23.2 L 20.8 24.1 L 23.2 25.1 L 24.1 27.5 L 25.1 25.1 L 27.5 24.1 L 25.1 23.2 Z M 40 25.5 L 38.8 22.3 L 37.5 25.5 L 34.3 26.8 L 37.5 28 L 38.8 31.3 L 40 28 L 43.3 26.8 L 40 25.5 Z" fill="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </g>
+                    </svg>
+                </div>
+                <div class="text">
+                  Near theater
+                </div>
+              </div>
+              <div class="icon-box">
+                <div class="icon">
+                    <svg width="54" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_48_5000)">
+                        <path d="M 32.2 32.3 L 30.1 27 C 30.1 26.9 30.1 26.9 30 26.8 C 29.9 26.8 29.8 26.8 29.8 26.8 C 29.7 26.8 29.6 26.8 29.5 26.8 C 29.4 26.9 29.4 26.9 29.4 27 L 27.3 32.3 C 27.3 32.4 27.3 32.4 27.2 32.5 C 27.2 32.5 27.1 32.5 27.1 32.6 L 21.8 34.6 C 21.7 34.6 21.6 34.7 21.6 34.8 C 21.5 34.8 21.5 34.9 21.5 35 C 21.5 35.1 21.5 35.2 21.6 35.2 C 21.6 35.3 21.7 35.4 21.8 35.4 L 27.1 37.4 C 27.1 37.5 27.2 37.5 27.2 37.5 C 27.3 37.6 27.3 37.6 27.3 37.7 L 29.4 43 C 29.4 43.1 29.4 43.1 29.5 43.2 C 29.6 43.2 29.7 43.2 29.8 43.2 C 29.8 43.2 29.9 43.2 30 43.2 C 30.1 43.1 30.1 43.1 30.1 43 L 32.2 37.7 C 32.2 37.6 32.2 37.6 32.3 37.5 C 32.3 37.5 32.4 37.5 32.4 37.4 L 37.7 35.4 C 37.8 35.4 37.9 35.3 37.9 35.2 C 38 35.2 38 35.1 38 35 C 38 34.9 38 34.8 37.9 34.8 C 37.9 34.7 37.8 34.6 37.7 34.6 L 32.4 32.6 C 32.4 32.5 32.3 32.5 32.3 32.5 C 32.2 32.4 32.2 32.4 32.2 32.3 Z M 25.1 23.2 L 24.1 20.8 L 23.2 23.2 L 20.8 24.1 L 23.2 25.1 L 24.1 27.5 L 25.1 25.1 L 27.5 24.1 L 25.1 23.2 Z M 40 25.5 L 38.8 22.3 L 37.5 25.5 L 34.3 26.8 L 37.5 28 L 38.8 31.3 L 40 28 L 43.3 26.8 L 40 25.5 Z" fill="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </g>
+                    </svg>
+                </div>
+                <div class="text">
+                  Clean hotel
+                </div>
+              </div>
+
+            </article>
+        <hr>
+        <!--Available Rooms section - contain rooms that can be booked,each div represents one availble option-->
+        <section>
+            <h2>Available Rooms</h2>
+            <div class="room-container">
+                <img src="assets/room2.PNG" width="75" class="rounded-image">
+                <span class="room-details">Superior Room - 1 double bed or 2 twin beds</span>
+                <div class="room-price-book">
+                    <span>$240</span>
+                    <span>/night</span>
+                    <button class="book-button">
+                        Book Now
+                    </button>
+                </div>
+            </div>
+            <hr>
+            <div class="room-container">
+                <img src="assets/room1.PNG" width="75" class="rounded-image">
+                <span class="room-details">Superior Room - City view - 1 double bed or 2 twin beds</span>
+                <div class="room-price-book">
+                    <span>$240</span>
+                    <span>/night</span>
+                    <button class="book-button">
+                        Book Now
+                    </button>
+                </div>
+            </div>
+            <hr>
+            <div class="room-container">
+                <img src="assets/room4.PNG" width="75" class="rounded-image">
+                <span class="room-details">Superior Room - City view - 1 double bed or 2 twin beds</span>
+                <div class="room-price-book">
+                    <span>$240</span>
+                    <span>/night</span>
+                    <button class="book-button">
+                        Book Now
+                    </button>
+                </div>
+            </div>
+            <hr>
+            <div class="room-container">
+                <img src="assets/room3.PNG" width="75" class="rounded-image">
+                <span class="room-details">Superior Room - City view - 1 double bed or 2 twin beds</span>
+                <div class="room-price-book">
+                    <span>$240</span>
+                    <span>/night</span>
+                    <button class="book-button">
+                        Book Now
+                    </button>
+                </div>
+            </div>
+            <hr>
+            <br>
+            <!--Location/Map section-->
+            <div class="location">
+                <p><Strong>Location/Map</Strong>
+                <button class="book-button">
+                    View on google maps
+                </button>
+            </div>
+            <br>
+            <iframe id= "map-frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3009.507214206012!2d28.984884176487977!3d41.03603591771458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab764cd5981a1%3A0xb1067fbfeb23d92d!2zR8O8bcO8xZ9zdXl1LCDEsG7Dtm7DvCBDZC4gTm86OCwgMzQ0MzcgQmV5b8SfbHUvxLBzdGFuYnVsLCBUw7xya2l5ZQ!5e0!3m2!1sen!2sus!4v1695626138643!5m2!1sen!2sus" width="85%" height="550"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <br>
+            <div id="location">
+                <svg width="64px" height="64" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+                    <path d="M32 22.25C28.2734 22.25 25.25 25.1277 25.25 28.6719C25.25 32.75 29.75 39.2127 31.4023 41.4448C31.4709 41.5391 31.5608 41.6157 31.6647 41.6686C31.7686 41.7215 31.8835 41.749 32 41.749C32.1165 41.749 32.2314 41.7215 32.3353 41.6686C32.4392 41.6157 32.5291 41.5391 32.5977 41.4448C34.25 39.2136 38.75 32.7533 38.75 28.6719C38.75 25.1277 35.7266 22.25 32 22.25Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M32 31.25C33.2426 31.25 34.25 30.2426 34.25 29C34.25 27.7574 33.2426 26.75 32 26.75C30.7574 26.75 29.75 27.7574 29.75 29C29.75 30.2426 30.7574 31.25 32 31.25Z" fill="black"></path>
+                </svg>
+                <span>Gümüşsuyu, İnönü Cd. No:8, 34437 Beyoğlu/İstanbul, Türkiye</span>
+            </div>
+        </section>
+        <hr>
+        <!--Amenities section - Used ul and li for items containing images and text -->
+
+        <section class="amenities">
+            <h2>Amenities</h2>
+            <div class="amenities-column1">
+                <ul>
+                    <li>
+                        <img src="assets/amenities1.PNG" width="30" height="">
+                        <span>Outdoor pool</span>
+                    </li>
+                    <li><img src="assets/amenities2.PNG" width="30" height="">&nbsp;&nbsp;Fitness center</li>
+                    <li><img src="assets/amenities3.PNG" width="30" height="">&nbsp;&nbsp;Indoor pool</li>
+                    <li><img src="assets/amenities4.PNG" width="30" height="">&nbsp;&nbsp;Bar/Lounge</li>
+                    <li><img src="assets/amenities5.PNG" width="30" height="">&nbsp;&nbsp;Spa and wellness</li>
+                </ul>
+            </div>
+            <div class="amenities-column">
+                <ul>
+                    <li><img src="assets/amenities6.PNG" width="30" height="">&nbsp;&nbsp;Free Wi-Fi</li>
+                    <li><img src="assets/amenities7.PNG" width="30" height="">&nbsp;&nbsp;Restaurant</li>
+                    <li><img src="assets/amenities8.PNG" width="30" height="">&nbsp;&nbsp;Tea/Coffee machine</li>
+                    <li><img src="assets/amenities9.PNG" width="30" height="">&nbsp;&nbsp;Room service</li>
+                    <li><a href="">+24 more</a></li>
+                </ul>
+            </div>
+        </section>
+        
+        <hr>
+        <!--Reviews section, each review is sub grouped as article-->
+        <section class="reviews-sec"> 
+            <div>
+                <h2>Reviews</h2>
+                <button class="book-button">
+                        Give your review
+                </button>
+            </div>
+            <br>
+            <div class="review-container">
+                <h3 class="rating">4.2</h3>
+                <div class="review-details">
+                    <strong>Very good</strong><br>
+                    <span>371 verified reviews</span>
+                </div>
+            </div>
+<hr>
+            <article>
+                <span>
+                    <img src="assets/profilePic.jpg"  width="50" height="50" >
+                </span>
+                <span>
+                &nbsp;&nbsp;<strong>5.0 Amazing</strong>&nbsp;&nbsp;|&nbsp;&nbsp; Omar siphon &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                <br />
+                <br />
+                <span>&nbsp;&nbsp;Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non, aperiam?</span>
+            </span>
+            <svg width="54" height="64" fill="none" xmlns="http://www.w3.org/2000/svg" align="right">
+                <path d="M23.75 41.75V23.1941C23.7502 23.1285 23.7677 23.0641 23.8006 23.0073C23.8335 22.9506 23.8807 22.9034 23.9375 22.8706C24.3036 22.6559 25.2931 22.25 27.5 22.25C30.5 22.25 34.2969 24.5 36.5 24.5C37.7439 24.4968 38.9746 24.2455 40.1202 23.7608C40.1344 23.7548 40.1499 23.7525 40.1653 23.754C40.1807 23.7555 40.1955 23.7608 40.2083 23.7693C40.2212 23.7779 40.2317 23.7896 40.239 23.8032C40.2462 23.8168 40.25 23.832 40.25 23.8475V34.13C40.2499 34.1663 40.2393 34.2018 40.2194 34.2322C40.1995 34.2625 40.1712 34.2865 40.138 34.3011C39.7517 34.4703 38.3905 35 36.5 35C34.25 35 30.5 33.5 27.5 33.5C24.5 33.5 23.75 34.25 23.75 34.25" stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" fill="black"/>
+            </svg>
+            </article>
+            <hr>
+            
+            <article>
+                <span>
+                    <img src="assets/profilePic2.jpg"  width="50" height="50" >
+                </span>
+                <span>
+                &nbsp;&nbsp;<strong>5.0 Amazing</strong>&nbsp;&nbsp;|&nbsp;&nbsp; Cristofer Bothman &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                <br />
+                <br />
+                <span>&nbsp;&nbsp;Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non, aperiam?</span>
+            </span>
+            <svg width="54" height="64" fill="none" xmlns="http://www.w3.org/2000/svg" align="right">
+                <path d="M23.75 41.75V23.1941C23.7502 23.1285 23.7677 23.0641 23.8006 23.0073C23.8335 22.9506 23.8807 22.9034 23.9375 22.8706C24.3036 22.6559 25.2931 22.25 27.5 22.25C30.5 22.25 34.2969 24.5 36.5 24.5C37.7439 24.4968 38.9746 24.2455 40.1202 23.7608C40.1344 23.7548 40.1499 23.7525 40.1653 23.754C40.1807 23.7555 40.1955 23.7608 40.2083 23.7693C40.2212 23.7779 40.2317 23.7896 40.239 23.8032C40.2462 23.8168 40.25 23.832 40.25 23.8475V34.13C40.2499 34.1663 40.2393 34.2018 40.2194 34.2322C40.1995 34.2625 40.1712 34.2865 40.138 34.3011C39.7517 34.4703 38.3905 35 36.5 35C34.25 35 30.5 33.5 27.5 33.5C24.5 33.5 23.75 34.25 23.75 34.25" stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" fill="black"/>
+            </svg>
+            </article>
+            <hr>
+
+            <article>
+                <span>
+                    <img src="assets/profilePic3.jpg"  width="50" height="50" >
+                </span>
+                <span>
+                &nbsp;&nbsp;<strong>5.0 Amazing</strong>&nbsp;&nbsp;|&nbsp;&nbsp; Kaiya Lubin &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                <br />
+                <br />
+                <span>&nbsp;&nbsp;Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non, aperiam?</span>
+            </span>
+            <svg width="54" height="64" fill="none" xmlns="http://www.w3.org/2000/svg" align="right">
+                <path d="M23.75 41.75V23.1941C23.7502 23.1285 23.7677 23.0641 23.8006 23.0073C23.8335 22.9506 23.8807 22.9034 23.9375 22.8706C24.3036 22.6559 25.2931 22.25 27.5 22.25C30.5 22.25 34.2969 24.5 36.5 24.5C37.7439 24.4968 38.9746 24.2455 40.1202 23.7608C40.1344 23.7548 40.1499 23.7525 40.1653 23.754C40.1807 23.7555 40.1955 23.7608 40.2083 23.7693C40.2212 23.7779 40.2317 23.7896 40.239 23.8032C40.2462 23.8168 40.25 23.832 40.25 23.8475V34.13C40.2499 34.1663 40.2393 34.2018 40.2194 34.2322C40.1995 34.2625 40.1712 34.2865 40.138 34.3011C39.7517 34.4703 38.3905 35 36.5 35C34.25 35 30.5 33.5 27.5 33.5C24.5 33.5 23.75 34.25 23.75 34.25" stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" fill="black"/>
+            </svg>
+            </article>
+            <hr>
+            <article>
+                <span>
+                    <img src="assets/profilePic4.jpg"  width="50" height="50" >
+                </span>
+                <span>
+                &nbsp;&nbsp;<strong>5.0 Amazing</strong>&nbsp;&nbsp;|&nbsp;&nbsp; Erin Septimus &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                <br />
+                <br />
+                <span>&nbsp;&nbsp;Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non, aperiam?</span>
+            </span>
+            <svg width="54" height="64" fill="none" xmlns="http://www.w3.org/2000/svg" align="right">
+                <path d="M23.75 41.75V23.1941C23.7502 23.1285 23.7677 23.0641 23.8006 23.0073C23.8335 22.9506 23.8807 22.9034 23.9375 22.8706C24.3036 22.6559 25.2931 22.25 27.5 22.25C30.5 22.25 34.2969 24.5 36.5 24.5C37.7439 24.4968 38.9746 24.2455 40.1202 23.7608C40.1344 23.7548 40.1499 23.7525 40.1653 23.754C40.1807 23.7555 40.1955 23.7608 40.2083 23.7693C40.2212 23.7779 40.2317 23.7896 40.239 23.8032C40.2462 23.8168 40.25 23.832 40.25 23.8475V34.13C40.2499 34.1663 40.2393 34.2018 40.2194 34.2322C40.1995 34.2625 40.1712 34.2865 40.138 34.3011C39.7517 34.4703 38.3905 35 36.5 35C34.25 35 30.5 33.5 27.5 33.5C24.5 33.5 23.75 34.25 23.75 34.25" stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" fill="black"/>
+            </svg>
+            </article>
+            <hr>
+            
+            <article>
+                <span>
+                    <img src="assets/profilePic5.jpg"  width="50" height="50" >
+                </span>
+                <span>
+                &nbsp;&nbsp;<strong>5.0 Amazing</strong>&nbsp;&nbsp;|&nbsp;&nbsp; Terry George &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                <br />
+                <br />
+                <span>&nbsp;&nbsp;Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non, aperiam?</span>
+            </span>
+            <svg width="54" height="64" fill="none" xmlns="http://www.w3.org/2000/svg" align="right">
+                <path d="M23.75 41.75V23.1941C23.7502 23.1285 23.7677 23.0641 23.8006 23.0073C23.8335 22.9506 23.8807 22.9034 23.9375 22.8706C24.3036 22.6559 25.2931 22.25 27.5 22.25C30.5 22.25 34.2969 24.5 36.5 24.5C37.7439 24.4968 38.9746 24.2455 40.1202 23.7608C40.1344 23.7548 40.1499 23.7525 40.1653 23.754C40.1807 23.7555 40.1955 23.7608 40.2083 23.7693C40.2212 23.7779 40.2317 23.7896 40.239 23.8032C40.2462 23.8168 40.25 23.832 40.25 23.8475V34.13C40.2499 34.1663 40.2393 34.2018 40.2194 34.2322C40.1995 34.2625 40.1712 34.2865 40.138 34.3011C39.7517 34.4703 38.3905 35 36.5 35C34.25 35 30.5 33.5 27.5 33.5C24.5 33.5 23.75 34.25 23.75 34.25" stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" fill="black"/>
+            </svg>
+            </article>
+            <hr>
+            <div id="arrow_nav">
+                <button>
+                    <img width="" height="" src="assets/arrow_back.png" alt="animal">
+                </button>
+                <span> 1 of 40 </span>
+                <button>
+                    <img width="" height="" src="assets/arrow_forward.png" alt="animal">
+                </button>
+            </div>
+         <br>   
+        </section>
+        <!--Subscribe Newsletter section - used form and input elements to validate email entry-->
+        <div class="container-with-border">
+            <section class="subscribe">
+                <div class="subscribe-text">
+            <h2>Subscribe<br>Newsletter</h2>
+            <br><br><br><br><br>
+                    <strong>The Travel</strong>
+                    <p>Get inspired! Receive travel discounts</p>
+                    <form>
+                        <input type="email" placeholder="Enter your email">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+                <img src="assets/post.PNG" class="subscribe-image">
+            </section>
+        </div>
+                </main>
+        <!--Footer content for our page-->
+        <footer class="footer">
+            <div class="footer-column">
+                <img src="assets/Logo.png" alt="globe logo" width="100" height="30">
+                <div class="social-media-icons">
+                    <img src="assets/Facebook.png" alt="fb logo" width="30" height="30">
+                    <img src="assets/Twitter.png" alt="x logo" width="30" height="30">
+                    <img src="assets/Youtube.png" alt="Youtube logo" width="30" height="30">
+                    <img src="assets/Instgram.png" alt="Instgram logo" width="30" height="30">
+                </div>
+            </div>
+            <div class="footer-column">
+                <h5>Our Destinations</h5>
+                <ul>
+                    <li>Canada</li>
+                    <li>Alaska</li>
+                    <li>France</li>
+                    <li>Iceland</li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h5>Our Activities</h5>
+                <ul>
+                    <li>Northern Lights</li>
+                    <li>Cruising & Sailing</li>
+                    <li>Multi-activities</li>
+                    <li>Kayaking</li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h5>Travel Blogs</h5>
+                <ul>
+                    <li>Bali Travel Guide</li>
+                    <li>Sri Lanka Travel Guide</li>
+                    <li>Peru Travel Guide</li>
+                    <li>Bali Travel Guide</li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h5>About Us</h5>
+                <ul>
+                    <li>Our Story</li>
+                    <li>Work with Us</li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h5>Contact Us</h5>
+                <ul>
+                    <li>Our Story</li>
+                    <li>Work with us</li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html> 
