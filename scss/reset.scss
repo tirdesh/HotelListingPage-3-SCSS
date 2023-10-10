@@ -1,0 +1,16 @@
+// reset.scss
+@import 'variables';
+
+body {
+    background-color: $background-color;
+    font-family: $font-family;
+    margin: $zero-margin-padding;
+    padding: $zero-margin-padding;
+}
+
+p {
+    padding: $zero-margin-padding;
+    margin: $zero-margin-padding;
+}
+
+// Add more base styles as needed
