@@ -1,5 +1,129 @@
 // stars-and-reviews.scss
 @import 'variables';
 
-// Define styles for stars, reviews, location, etc.
-// Use variables like $orangered-color and $dark-color here
+
+section h1{
+    margin-left: 110px;
+}
+
+
+section h1, .stars{
+    display: inline;
+    vertical-align: middle;
+}
+
+/* Style for stars */
+.stars {
+    overflow: hidden;
+}
+
+.stars a {
+    text-decoration: none;
+    color: $dark-color;
+}
+
+.stars a svg {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.stars svg {
+    fill: $orangered-color;
+    font-size: 0;
+    stroke-width: 0%;
+}
+
+.stars a span {
+    color: $dark-color;
+}
+
+.stars div {
+    color: $orangered-color;
+    float: right;
+    margin-right: $stars-div-margin-right;
+}
+
+.stars div span:nth-child(1) {
+    font-size: $stars-div-span-font-size;
+}
+
+#location {
+    margin-left: 90px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#location svg {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Style for reviews section */
+.reviews {
+    text-align: center;
+}
+
+
+.reviews {
+    text-align: center;
+}
+
+.reviews-left, .reviews-right {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.reviews-left{
+    float: left;
+    margin-left: 110px;
+ 
+}
+
+.reviews-right{
+    float: right;
+    text-align: center;
+    margin-right: 100px;
+    border-radius: 5px;
+}
+
+.reviews-left p {
+    margin-right: 5px;
+        display: inline-block;
+        background-color: #ffffff;
+        padding: 10px;
+        border: 1px solid rgb(141, 211, 187);
+        border-radius: 5px;
+    vertical-align: bottom;
+}
+
+.reviews-right img {
+    margin-right: 5px;
+        display: inline-block;
+        background-color: #ffffff;
+        padding: 5px;
+        border: 1px solid rgb(141, 211, 187);
+        border-radius: 5px;
+    vertical-align: top;
+}
+
+.reviews-right a{
+    text-decoration: none;
+}
+
+.reviews-right p, 
+.reviews-right button {
+    display: inline-block;
+    background-color: #ffffff;
+    padding: 0px;
+    border: 1px solid rgb(141, 211, 187);
+    border-radius: 5px;
+    vertical-align: top;
+}
+
+.reviews-right button, .book-button{
+    padding: 15px 20px;
+    background-color: rgb(141, 211, 187);
+}
+
+/* Define styles for location and other elements as needed */

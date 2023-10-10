@@ -1,0 +1,54 @@
+// reviews-sec.scss
+@import 'variables';
+
+// Define styles for location, map, buttons, amenities, etc.
+// Use variables and organize as needed
+
+
+.reviews-sec div {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+}
+
+.reviews-sec h2 {
+    float: left;
+}
+
+.reviews-sec .book-button {
+    float: right;
+}
+
+.review-container {
+    margin-left: $reviews-container-margin-left;
+    width: 100%;
+    overflow: hidden;
+}
+
+.rating {
+    float: left;
+    font-size: $rating-font-size;
+}
+
+.reviews-sec article img,
+.reviews-sec article strong,
+.reviews-sec article span,
+.reviews-sec article svg {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.reviews-sec article img {
+    margin-left: $reviews-article-img-margin-left;
+    border-radius: $reviews-article-img-border-radius;
+}
+
+.reviews-sec article svg {
+    float: right;
+    margin-right: $reviews-article-svg-margin-right;
+}
+
+.reviews-sec article p {
+    margin-left: $reviews-article-p-margin-left;
+    margin-top: $reviews-article-p-margin-top;
+}

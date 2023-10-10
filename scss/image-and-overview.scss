@@ -1,5 +1,114 @@
 // image-and-overview.scss
 @import 'variables';
 
-// Define styles for image containers, overview, icons, etc.
-// Use variables and organize as needed
+/* Style for image containers */
+.image-container ul {
+    list-style: none;
+    padding-left: $image-container-padding;
+    padding-right: $image-container-padding;
+    padding-bottom: $image-container-padding;
+    margin-top: $image-container-margin-top;
+    position: relative;
+    overflow: hidden;
+}
+
+.column {
+    width: calc(33.33% - $column-margin);
+    margin-right: $column-margin; /* Adjust margin-right as needed */
+    float: left;
+}
+
+.large {
+    margin-right: $large-column-margin;
+    height: $large-column-height;
+    width: 100%;
+}
+
+.small {
+    height: $small-column-height;
+    width: 100%;
+    margin-bottom: $small-column-margin-bottom; /* Adjust margin-bottom as needed for spacing */
+}
+
+.column:last-child {
+    margin-right: 0; /* Remove margin for the last column */
+}
+
+/* Style for image button containers */
+.image-button-container {
+    position: relative;
+    height: $image-button-container-height;
+    margin-bottom: $image-button-container-margin-bottom;
+}
+
+.image-button-container button {
+    background-color: $button-bg-color;
+    border: none;
+    padding: $button-padding;
+    cursor: pointer;
+    position: absolute;
+    bottom: $button-bottom;
+    right: $button-right;
+    border-radius: $button-border-radius;
+}
+
+/* Style for overview section */
+article {
+    padding-bottom: $article-padding-bottom;
+}
+
+article h2 {
+    padding-left: $article-h2-padding-left;
+    padding-top: $article-h2-padding-top;
+}
+
+#overview {
+    margin: $overview-margin;
+    padding-left: $overview-padding-left;
+    padding-right: $overview-padding-right;
+}
+
+.text {
+    padding-bottom: $text-padding-bottom;
+}
+
+/* Style for box icons in overview */
+.icon-fill {
+    height: $icon-fill-height;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: $icon-fill-bg-color;
+    padding: $icon-fill-padding;
+    margin-left: $icon-fill-margin-left;
+    border: $icon-fill-border;
+    border-radius: $icon-fill-border-radius;
+    text-align: left;
+    margin-right: $icon-fill-margin-right;
+}
+
+.icon-box img {
+    padding-bottom: $icon-box-img-padding-bottom;
+}
+
+.icon-box {
+    height: $icon-box-height;
+    display: inline-block;
+    vertical-align: middle;
+    padding: $icon-box-padding;
+    border: $icon-box-border;
+    border-radius: $icon-box-border-radius;
+    text-align: left;
+    margin-right: $icon-box-margin-right;
+}
+
+#txt-id {
+    font-weight: $txt-id-font-weight;
+    padding-bottom: $txt-id-padding-bottom;
+}
+
+hr {
+    clear: both;
+    margin: $hr-margin;
+}
+
+/* Define other styles for image and overview elements as needed */

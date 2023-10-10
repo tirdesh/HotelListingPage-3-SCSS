@@ -1,5 +1,6 @@
 // header-and-nav.scss
 @import 'variables';
+@import 'mixins';
 
 header {
     background-color: $primary-color;
@@ -16,5 +17,70 @@ header {
     @include box-shadow(0px 2px 5px $header-shadow-color, 5px);
 }
 
-// Define styles for header links, logo, and navigation
-// Use $link-color and other variables here
+/* Style for header links */
+header a {
+    text-decoration: none;
+    color: $link-color;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+/* Style for SVG and images inside header links */
+header a svg,
+header a img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Style for the logo */
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    position: relative;
+    top: 0;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-weight: $logo-font-weight;
+}
+
+
+.items:hover {
+    border-bottom: 2px solid green; /* Add a green border bottom on hover */
+}
+/* Style for the right-aligned item */
+.items.item3 {
+    display: inline-block; /* Display as inline-block */
+    vertical-align: middle; /* Vertically align */
+    text-align: right; /* Right-align the item */
+    margin-left: auto; /* Push it to the right */
+}
+
+.items.item1 {
+    display: inline-block; /* Display as inline-block */
+    vertical-align: middle; /* Vertically align */
+    text-align: left; /* Left-align the item */
+    margin-right: auto;
+}
+
+/* Round the user profile image */
+.item4 img {
+    border-radius: 50%; /* Make the image round */
+}
+
+
+/* Navigation styles */
+nav {
+    margin-left: $nav-margin-left;
+    padding-top: $nav-padding;
+    padding-bottom: $nav-padding;
+}
+
+nav div a {
+    margin: 0;
+    text-decoration: none;
+    color: $nav-link-color;
+}
+
+/* Define other styles for navigation elements as needed */
