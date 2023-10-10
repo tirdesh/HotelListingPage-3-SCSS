@@ -52,3 +52,16 @@
     margin-left: $reviews-article-p-margin-left;
     margin-top: $reviews-article-p-margin-top;
 }
+
+
+#arrow_nav button,
+#arrow_nav span{
+    display: inline-block;
+vertical-align: middle;
+}
+
+#arrow_nav{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}

@@ -79,36 +79,39 @@ article h2 {
     vertical-align: middle;
     background-color: $icon-fill-bg-color;
     padding: $icon-fill-padding;
-    margin-left: $icon-fill-margin-left;
-    border: $icon-fill-border;
-    border-radius: $icon-fill-border-radius;
+    margin-left: 110px;
+    border: 1px solid rgb(141, 211, 187);
+    border-radius: 5px;
     text-align: left;
-    margin-right: $icon-fill-margin-right;
+    margin-right: 15px;
+
 }
 
-.icon-box img {
-    padding-bottom: $icon-box-img-padding-bottom;
-}
-
-.icon-box {
-    height: $icon-box-height;
+.icon-box img{
+    padding-bottom: 20px;
+  }
+  
+  .icon-box {
+    height: 75px;
     display: inline-block;
     vertical-align: middle;
-    padding: $icon-box-padding;
-    border: $icon-box-border;
-    border-radius: $icon-box-border-radius;
+    padding: 10px;
+    border: 1px solid rgb(141, 211, 187);
+    border-radius: 5px;
     text-align: left;
-    margin-right: $icon-box-margin-right;
+    margin-right: 15px;
 }
 
-#txt-id {
-    font-weight: $txt-id-font-weight;
-    padding-bottom: $txt-id-padding-bottom;
-}
+  #txt-id{
+    font-weight: bolder;
+    padding-bottom: 7px;
+    /* Style your text here */
+  }
+
 
 hr {
     clear: both;
-    margin: $hr-margin;
+    margin: 10px 50px;
 }
 
 /* Define other styles for image and overview elements as needed */

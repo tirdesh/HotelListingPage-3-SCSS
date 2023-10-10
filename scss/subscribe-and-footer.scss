@@ -1,0 +1,102 @@
+// subscribe-and-footer.scss
+@import 'variables';
+
+/* Define styles for the subscribe section */
+.container-with-border {
+    border: $subscribe-border;
+    border-radius: $subscribe-border-radius;
+    padding: $subscribe-padding;
+    overflow: $subscribe-overflow;
+    align-items: $subscribe-align-items;
+    margin-top: $subscribe-margin-top;
+    margin-left: $subscribe-margin-left;
+    margin-right: $subscribe-margin-right;
+    background-color: $subscribe-background-color;
+    margin-bottom: $subscribe-margin-bottom;
+    position: $subscribe-position;
+}
+
+.subscribe {
+    display: $subscribe-display;
+    justify-content: $subscribe-justify-content;
+    align-items: $subscribe-align-items2;
+    width: $subscribe-width;
+    padding: $subscribe-padding2;
+}
+
+.subscribe-text {
+    text-align: $subscribe-text-align;
+    width: $subscribe-text-width;
+}
+
+.subscribe-text h2 {
+    padding-left: $subscribe-text-h2-padding-left;
+    float: $subscribe-text-h2-float;
+    font-size: $subscribe-text-h2-font-size;
+    margin-bottom: $subscribe-text-h2-margin-bottom;
+}
+
+.subscribe-text strong {
+    font-size: $subscribe-text-strong-font-size;
+}
+
+.subscribe-text p {
+    margin: $subscribe-text-p-margin;
+}
+
+.subscribe-text form {
+    margin-top: $subscribe-text-form-margin-top;
+}
+
+.subscribe-text input[type="email"] {
+    padding: $subscribe-text-input-padding;
+    margin-right: $subscribe-text-input-margin-right;
+    width: $subscribe-text-input-width;
+    border-color: $subscribe-text-input-border-color;
+    border-radius: $subscribe-text-input-border-radius;
+}
+
+.subscribe-text button {
+    padding: $subscribe-text-button-padding;
+    background-color: $subscribe-text-button-background-color;
+    color: $subscribe-text-button-color;
+    border: $subscribe-text-button-border;
+    cursor: $subscribe-text-button-cursor;
+    border-radius: $subscribe-text-button-border-radius;
+}
+
+.subscribe-image {
+    max-width: $subscribe-image-max-width;
+}
+
+/* Define styles for the footer section */
+.footer {
+    display: $footer-display;
+    flex-wrap: $footer-flex-wrap;
+    background-color: $footer-background-color;
+    color: $footer-color;
+    padding-left: $footer-padding-left;
+    padding-right: $footer-padding-right;
+    padding-top: $footer-padding-top;
+}
+
+.footer-column {
+    flex: $footer-column-flex;
+    padding: $footer-column-padding;
+}
+
+.footer-column ul {
+    list-style-type: $footer-column-ul-list-style-type;
+    text-align: $footer-column-ul-text-align;
+    padding: $footer-column-ul-padding;
+}
+
+.social-media-icons img {
+    margin-right: $social-media-icons-img-margin-right;
+}
+
+.footer a {
+    text-decoration: $footer-a-text-decoration;
+}
+
+/* Define more styles for the footer as needed */
