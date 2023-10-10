@@ -1,0 +1,6 @@
+// mixins.scss
+
+@mixin box-shadow($box-shadow, $border-radius) {
+    box-shadow: $box-shadow;
+    border-radius: $border-radius;
+}

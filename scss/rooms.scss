@@ -1,0 +1,9 @@
+// rooms.scss
+@import 'variables';
+
+// Define styles for available rooms, room containers, prices, buttons, etc.
+// Use variables and organize as needed
+.room-container {
+    // Other room container styles...
+    @include box-shadow(0px 2px 5px $light-green-color, 10px);
+}

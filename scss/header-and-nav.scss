@@ -1,0 +1,20 @@
+// header-and-nav.scss
+@import 'variables';
+
+header {
+    background-color: $primary-color;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: $header-font-weight;
+    line-height: 1;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 1;
+    @include box-shadow(0px 2px 5px $header-shadow-color, 5px);
+}
+
+// Define styles for header links, logo, and navigation
+// Use $link-color and other variables here
