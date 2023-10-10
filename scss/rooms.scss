@@ -1,9 +1,69 @@
 // rooms.scss
 @import 'variables';
+@import 'mixins';
 
-// Define styles for available rooms, room containers, prices, buttons, etc.
-// Use variables and organize as needed
+/* Define styles for available rooms */
+section h2{
+    padding-top: 35px;
+    padding-left: 110px;
+  }
+  
 .room-container {
-    // Other room container styles...
-    @include box-shadow(0px 2px 5px $light-green-color, 10px);
+    width: 100%;
+    margin-top: $room-container-margin-top;
+    margin-right: $room-container-margin-right;
+    text-align: left;
+    vertical-align: middle;
+    display: inline-block;
+
+    // Apply mixin for box shadow with variables
+    @include box-shadow(0px 2px 5px $light-green-color, $room-container-box-shadow-offset);
 }
+
+.rounded-image {
+    border-radius: $rounded-image-border-radius;
+    margin-left: $rounded-image-margin-left;
+    margin-right: $rounded-image-margin-right;
+    padding: $rounded-image-padding;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.room-details {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    margin-right: $room-details-margin-right;
+    padding: $room-details-padding;
+    font-weight: $room-details-font-weight;
+}
+
+.room-price-book {
+    float: right;
+    margin-left: $room-price-book-margin-left;
+    padding: $room-price-book-padding;
+}
+
+.room-price-book span:nth-child(1) {
+    font-size: $room-price-font-size;
+    font-weight: $room-price-font-weight;
+}
+
+.book-button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: $book-button-border-radius;
+    border-color: $book-button-border-color;
+    margin-left: $book-button-margin-left;
+    margin-right: $book-button-margin-right;
+    font-weight: $book-button-font-weight;
+}
+
+.room-container img,
+.room-container span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Define more styles for rooms as needed */

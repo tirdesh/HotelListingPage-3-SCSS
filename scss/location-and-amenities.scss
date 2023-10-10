@@ -1,5 +1,79 @@
 // location-and-amenities.scss
 @import 'variables';
 
-// Define styles for location, map, buttons, amenities, etc.
-// Use variables and organize as needed
+/* Define styles for location section */
+.location {
+    padding-top: $location-padding-top;
+    margin-left: $location-margin-left;
+    vertical-align: middle;
+}
+
+.location button {
+    padding: $location-button-padding;
+    border-radius: $location-button-border-radius;
+    float: right;
+    margin-bottom: $location-button-margin-bottom;
+    margin-left: $location-button-margin-left;
+}
+
+#map-frame {
+    border-radius: $map-frame-border-radius;
+    margin: 0;
+    padding: 0;
+    margin-left: $map-frame-margin-left;
+    overflow-x: $map-frame-overflow-x;
+}
+
+iframe ::after #location{
+    padding-bottom: 35px;
+}
+
+/* Define styles for amenities section */
+.amenities-column {
+    float: $amenities-column-float;
+    margin-right: $amenities-column-margin-right;
+}
+
+.amenities-column1 {
+    float: $amenities-column1-float;
+    margin-left: $amenities-column1-margin-left;
+}
+
+.amenities {
+    width: $amenities-width;
+}
+
+.amenities ul {
+    list-style-type: $amenities-list-style-type;
+    padding: $amenities-list-padding;
+}
+
+.amenities li {
+    margin-bottom: $amenities-list-item-margin-bottom;
+}
+
+.amenities img {
+    border: $amenities-img-border;
+}
+
+.amenities-column a {
+    text-decoration: $amenities-column-a-text-decoration;
+    color: $amenities-column-a-color;
+}
+
+.amenities-column1 {
+    padding-bottom: $amenities-column1-padding-bottom;
+}
+
+.amenities-column1::after {
+    content: $amenities-column1-after-content;
+    display: $amenities-column1-after-display;
+}
+
+.amenities li img,
+.amenities li span {
+    display: $amenities-list-item-img-display;
+    vertical-align: $amenities-list-item-img-vertical-align;
+}
+
+/* Define more styles for location and amenities as needed */
