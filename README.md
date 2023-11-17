@@ -1,6 +1,4 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/G1iRwQk6)
-# Assignment Description
-Use SCSS to the Assignment 3 HTML Page.
+Use SCSS to the HotelListing HTML Page.
 1. The goal of this assignment is to learn about CSS positioning, Grid layout / Flexbox, and SCSS features like variables, mixins, inheritance, loops, functions, math operations, etc.
 2. SCSS should be organized into multiple files based on UI features, common elements, and themes.
 3. These SCSS files should be added to a main.scss file and this should be converted to a .css file using sass.
@@ -26,12 +24,12 @@ Use SCSS to the Assignment 3 HTML Page.
 3. As this assignment is made mostly by using html no additional packages are required.
 
 # Final Output(How the page looks)
-![image](https://github.com/info-6150-fall-2023/assignment-3-tirdesh-neu/assets/145165383/f16369d5-cab9-4b68-9a40-f96cf8ca623f)
-![image](https://github.com/info-6150-fall-2023/assignment-3-tirdesh-neu/assets/145165383/d278060e-ae90-4f32-b466-1be0b9a7a8f4)
-![image](https://github.com/info-6150-fall-2023/assignment-3-tirdesh-neu/assets/145165383/48cadeca-e3e2-44e9-9414-a86e7cb317b7)
-![image](https://github.com/info-6150-fall-2023/assignment-3-tirdesh-neu/assets/145165383/4995e356-8a71-4d89-a47b-59df0fd5d1ce)
-![image](https://github.com/info-6150-fall-2023/assignment-3-tirdesh-neu/assets/145165383/dbc5d469-d3e2-42ae-916d-6ce6e2e24569)
-![image](https://github.com/info-6150-fall-2023/assignment-3-tirdesh-neu/assets/145165383/7a974d98-ead7-4348-a716-224399b509b6)
-![image](https://github.com/info-6150-fall-2023/assignment-3-tirdesh-neu/assets/145165383/4310e952-d6df-44dd-87b2-25fac98e2c58)
-![image](https://github.com/info-6150-fall-2023/assignment-3-tirdesh-neu/assets/145165383/efe83787-e8af-4dc7-b703-b946f04d688a)
-![image](https://github.com/info-6150-fall-2023/assignment-3-tirdesh-neu/assets/145165383/9fab3329-a601-4c81-817f-74e5d0bce7c3)
+![image](https://github.com/tirdesh/HotelListingPage-3-SCSS/assets/71664201/3f416a04-3576-46ae-9780-42bba1762a61)
+![image](https://github.com/tirdesh/HotelListingPage-3-SCSS/assets/71664201/b2b3a6ba-1d02-429f-9526-e3e21e84b337)
+![image](https://github.com/tirdesh/HotelListingPage-3-SCSS/assets/71664201/0c2abc0e-c20b-4beb-b0b6-bfe3e1bd6f3b)
+![image](https://github.com/tirdesh/HotelListingPage-3-SCSS/assets/71664201/8aedf373-8467-49d0-b9df-93b8cdafb046)
+![image](https://github.com/tirdesh/HotelListingPage-3-SCSS/assets/71664201/08b619e7-f682-4548-a4bf-a2e7285ac8cc)
+![image](https://github.com/tirdesh/HotelListingPage-3-SCSS/assets/71664201/1630977e-eeeb-4bf5-8474-cc0cf0d0d96c)
+![image](https://github.com/tirdesh/HotelListingPage-3-SCSS/assets/71664201/b13b11c6-b58a-4e99-834b-f3bc1e876dc7)
+![image](https://github.com/tirdesh/HotelListingPage-3-SCSS/assets/71664201/1b9e0050-6ff7-4ffe-a53f-8c81695a5ae0)
+![image](https://github.com/tirdesh/HotelListingPage-3-SCSS/assets/71664201/cc7e3d6f-c78d-416e-a933-d85b347a1646)
