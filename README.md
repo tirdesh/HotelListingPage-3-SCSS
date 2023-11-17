@@ -1,4 +1,4 @@
-Use SCSS to the HotelListing HTML Page.
+# Use SCSS to the HotelListing HTML Page.
 1. The goal of this assignment is to learn about CSS positioning, Grid layout / Flexbox, and SCSS features like variables, mixins, inheritance, loops, functions, math operations, etc.
 2. SCSS should be organized into multiple files based on UI features, common elements, and themes.
 3. These SCSS files should be added to a main.scss file and this should be converted to a .css file using sass.
